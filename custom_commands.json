@@ -1,0 +1,29 @@
+{
+    "run_when": "after_command",
+    "commands": [
+        {
+            "word": "pinkghoul",
+            "allow_for": [
+                "user",
+                "whitelist",
+                "owner"
+            ],
+            "run": [
+                "CID_029_Athena_Commando_F_Halloween",
+                "set_variant outfit material 3"
+            ]
+        },
+        {
+            "word": "checkeredrenegade",
+            "allow_for": [
+                "user",
+                "whitelist",
+                "owner"
+            ],
+            "run": [
+                "CID_028_Athena_Commando_F",
+                "set_variant outfit material 2"
+            ]
+        }
+    ]
+}
